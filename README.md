@@ -38,48 +38,48 @@ This documentation provides an overview of the CSS utilities generated from SASS
 - `.mt-0` to `.mt-5`: Sets margin on the top.
 - `.mb-0` to `.mb-5`: Sets margin on the bottom.
 
-## Opacity Utility
+## Opacity
 
 - `.o-10` to `.o-100`: Sets opacity in incremental steps.
 
-## Border Radius Utility
+## Border Radius
 
 - `.br-none`: Sets border radius to 0.
 - `.br-xs` to `.br-full`: Sets border radius in various sizes.
 
-## Display Utility
+## Display
 
 - `.d-none`: Sets display to none.
 - `.d-block`, `.d-inline`, `.d-inline-block`: Sets display to block, inline, or inline-block, respectively.
 - `.d-inline-flex`, `.d-flex`: Sets display to inline-flex or flex, respectively.
 - `.d-grid`: Sets display to grid.
 
-## Font Size Utility
+## Font Size
 
 - `.fs-sm` to `.fs-xxl`: Sets font size in various sizes.
 
-## Font Weight Utility
+## Font Weight
 
 - `.fw-300` to `.fw-900`: Sets font weight in various weights.
 
-## Width and Height Utility
+## Width and Height
 
 - `.w-10` to `.w-100`: Sets width in percentage increments.
 - `.h-10` to `.h-100`: Sets height in percentage increments.
 
-## Alignment Utility
+## Alignment
 
 - `.align-items-center`, `.align-items-end`, `.align-items-start`: Aligns items vertically at center, end, or start, respectively.
 
-## Position Utility
+## Position
 
 - `.position-absolute`, `.position-fixed`, `.position-sticky`, `.position-relative`: Sets positioning to absolute, fixed, sticky, or relative, respectively.
 
-## Text Decoration Utility
+## Text Decoration
 
 - `.text-dec-none` to `.text-dec-double`: Sets text decoration to none, dashed, dotted, underline, line-through, or double, respectively.
 
-## Text Transform Utility
+## Text Transform
 
 - `.text-t-capitalize`, `.text-t-lowercase`, `.text-t-uppercase`: Sets text transform to capitalize, lowercase, or uppercase, respectively.
 
