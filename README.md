@@ -200,26 +200,32 @@ Colors are defined for various elements such as text, backgrounds, and buttons.
 - `.bg-warning`
 - Color: #ffc107
 
-- `.bg-info`- Color: #0dcaf0
+- `.bg-info`
+- Color: #0dcaf0
 
 ## Button Styles
 
 Button styles are defined for various colors.
 
 - `.btn-primary`
-- Background Color: #ab7442- Text Color: #fff
+- Background Color: #ab7442
+- Text Color: #fff
 
 - `.btn-light`
-- Background Color: #f5f5f5- Text Color: #fff
+- Background Color: #f5f5f5
+- Text Color: #fff
 
 - `.btn-dark`
-- Background Color: #353535- Text Color: #fff
+- Background Color: #353535
+- Text Color: #fff
 
 - `.btn-white`
-- Background Color: #fff- Text Color: #353535
+- Background Color: #fff
+- Text Color: #353535
 
 - `.btn-gray`
-- Background Color: #6c757d- Text Color: #fff
+- Background Color: #6c757d
+- Text Color: #fff
 
 - `.btn-success`
 - Background Color: #198754
