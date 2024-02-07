@@ -1,6 +1,6 @@
 {
   "name": "wookiee-style-sass",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Css library created with sass",
   "main": "index.js",
   "scripts": {
