@@ -1,0 +1,340 @@
+@use 'sass:math';
+
+$utilities: (
+  'padding': (
+    'prefix': 'p',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+  'padding-left': (
+    'prefix': 'pl',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+  'padding-right': (
+    'prefix': 'pr',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+  'padding-top': (
+    'prefix': 'pt',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+  'padding-bottom': (
+    'prefix': 'pb',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+  'padding-x': (
+    'prefix': 'px',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+
+  'padding-y': (
+    'prefix': 'py',
+    'values': (
+      '0': 0,
+      '1': $base-padding,
+      '2': $base-padding * 2,
+      '3': $base-padding * 3,
+      '4': $base-padding * 4,
+      '5': $base-padding * 5,
+    ),
+  ),
+  'margin': (
+    'prefix': 'm',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+  'margin-x': (
+    'prefix': 'mx',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+
+  'margin-y': (
+    'prefix': 'my',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+  'margin-left': (
+    'prefix': 'ml',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+  'margin-right': (
+    'prefix': 'mr',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+  'margin-top': (
+    'prefix': 'mt',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+  'margin-bottom': (
+    'prefix': 'mb',
+    'values': (
+      '0': 0,
+      '1': $base-margin,
+      '2': $base-margin * 2,
+      '3': $base-margin * 3,
+      '4': $base-margin * 4,
+      '5': $base-margin * 5,
+      'auto': auto,
+    ),
+  ),
+  'opacity': (
+    'prefix': 'o',
+    'values': (
+      '10': 0.1,
+      '20': 0.2,
+      '30': 0.3,
+      '40': 0.4,
+      '50': 0.5,
+      '60': 0.6,
+      '70': 0.7,
+      '80': 0.8,
+      '90': 0.9,
+      '100': 1,
+    ),
+  ),
+  'border-radius': (
+    'prefix': 'br',
+    'values': (
+      'none': 0,
+      'xs': math.div($base-border-radius, 4),
+      'sm': math.div($base-border-radius, 2),
+      'md': $base-border-radius,
+      'lg': $base-border-radius * 2,
+      'full': 50%,
+    ),
+  ),
+  'display': (
+    'prefix': 'd',
+    'values': (
+      'none': none,
+      'block': block,
+      'inline': inline,
+      'inline-block': inline-block,
+      'inline-flex': inline-flex,
+      'flex': flex,
+      'grid': grid,
+    ),
+  ),
+  'font-size': (
+    'prefix': 'fs',
+    'values': (
+      'sm': $font-size-sm,
+      'md': $font-size-md,
+      'lg': $font-size-lg,
+      'xl': $font-size-xl,
+      'xxl': $font-size-xxl,
+    ),
+  ),
+  'font-weight': (
+    'prefix': 'fw',
+    'values': (
+      '300': 300,
+      '400': 400,
+      '500': 500,
+      '600': 600,
+      '700': 700,
+      '800': 800,
+      '900': 900,
+    ),
+  ),
+  'width': (
+    'prefix': 'w',
+    'values': (
+      '10': 10%,
+      '20': 20%,
+      '30': 30%,
+      '40': 40%,
+      '50': 50%,
+      '60': 60%,
+      '70': 70%,
+      '80': 80%,
+      '90': 90%,
+      '100': 100%,
+    ),
+  ),
+  'height': (
+    'prefix': 'h',
+    'values': (
+      '10': 10%,
+      '20': 20%,
+      '30': 30%,
+      '40': 40%,
+      '50': 50%,
+      '60': 60%,
+      '70': 70%,
+      '80': 80%,
+      '90': 90%,
+      '100': 100%,
+    ),
+  ),
+  'align-items': (
+    'prefix': 'align-items',
+    'values': (
+      'center': center,
+      'end': end,
+      'start': start,
+    ),
+  ),
+  'position': (
+    'prefix': 'position',
+    'values': (
+      'absolute': absolute,
+      'fixed': fixed,
+      'sticky': sticky,
+      'relative': relative,
+    ),
+  ),
+  'text-decoration': (
+    'prefix': 'text-dec',
+    'values': (
+      'none': none,
+      'dashed': dashed,
+      'dotted': dotted,
+      'underline': underline,
+      'line-through': line-through,
+      'double': double,
+    ),
+  ),
+  'text-transform': (
+    'prefix': 'text-t',
+    'values': (
+      'capitalize': capitalize,
+      'lowercase': lowercase,
+      'uppercase': uppercase,
+    ),
+  ),
+);
+
+// button {
+// text-transform: ;
+// }
+
+$text-values: start, center, right, left, end;
+
+@each $value in $text-values {
+  .text-#{$value} {
+    text-align: $value;
+  }
+}
+
+@each $property, $map in $utilities {
+  $prefix: map-get(
+    $map: $map,
+    $key: 'prefix',
+  );
+  $values: map-get(
+    $map: $map,
+    $key: 'values',
+  );
+
+  @each $key, $value in $values {
+    .#{$prefix}-#{$key} {
+      @if $prefix == 'p' {
+        padding: $value;
+      } @else if $prefix == 'm' {
+        margin: $value;
+      } @else if $prefix == 'px' {
+        padding-left: $value;
+        padding-right: $value;
+      } @else if $prefix == 'py' {
+        padding-top: $value;
+        padding-bottom: $value;
+      } @else if $prefix == 'mx' {
+        margin-left: $value;
+        margin-right: $value;
+      } @else if $prefix == 'my' {
+        margin-top: $value;
+        margin-bottom: $value;
+      } @else {
+        #{$property}: $value;
+      }
+    }
+  }
+}
