@@ -1,7 +1,5 @@
 # Wookiee Style Sass
 
-![Wookiee Style Sass Logo](https://example.com/wookiee-style-sass-logo.png)
-
 ## Overview
 
 Wookiee Style Sass is a Sass utility library inspired by the beloved Star Wars character Chewbacca, also known as Chewie. This library provides convenient utility classes for common styling tasks in web development, allowing you to easily apply consistent styles across your projects.
