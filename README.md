@@ -71,6 +71,14 @@ This documentation provides an overview of the CSS utilities generated from SASS
 
 - `.align-items-center`, `.align-items-end`, `.align-items-start`: Aligns items vertically at center, end, or start, respectively.
 
+## Justify-content
+
+- `.justify-center`, `.justify-space-between`, `.justify-space-around`,`.justify-flex-end`,`justify-flex-start` : justifys items vertically at center, end, or start, respectively.
+
+## Flex direction
+
+- `.flex-row`,`flex-row-reverse`, `.flex-column`,`.flex-column-reverse`, `flex-unset`
+
 ## Position
 
 - `.position-absolute`, `.position-fixed`, `.position-sticky`, `.position-relative`: Sets positioning to absolute, fixed, sticky, or relative, respectively.
