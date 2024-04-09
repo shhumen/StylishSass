@@ -357,10 +357,16 @@ $utilities: (
 // }
 
 $text-values: start, center, right, left, end;
+$flex-direction-values: row, column;
 
 @each $value in $text-values {
   .text-#{$value} {
     text-align: $value;
+  }
+}
+@each $value in $flex-direction-values {
+  .flex-#{$value} {
+    flex-direction: $value;
   }
 }
 
